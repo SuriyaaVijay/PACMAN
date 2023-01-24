@@ -1,0 +1,67 @@
+UC 1: Start
+Scope: Game System
+Level: Player(User)
+Goal in context: To start the game
+Actors: 
+Primary: Player - Starts the game
+Secondary:  Game Developer 
+Basic Flow: 
+1. Player arrives to play the game.
+2. He starts the game first.
+
+UC 2: Play Game
+Scope: Game System
+Level: Player (User)
+Goal in context: To Play the game
+Actors: 
+Primary: Player - Plays the game
+Secondary:  Game Developer 
+Basic Flow: 
+1. Player plays the game.
+
+UC 3:  Main Menu
+Scope: Game System
+Level: Player (User)
+Goal in context: Contains all the features of the game.
+Actors: 
+Primary: Player - Chooses the options and customizes the game to his convenience
+Secondary:  Game Developer , Database - All the game settings/customizations are stored in this 
+Basic Flow: 
+1. Player clicks the menu.
+2. He can choose grid layouts.
+3. He can change the player avatar.
+4. Leaderboard can also be viewed.
+
+UC 4: Customise
+Scope: Game System
+Level: Game Developer
+Goal in context: Customize the game options and settings
+Actors: 
+Primary: Player - Chooses the options and customizes the game to his convenience
+Secondary:  Game Developer , Database - All the game settings/customizations are stored in this 
+Basic Flow: 
+1. He can choose grid layouts.
+2. He can change the player avatar.
+
+UC 5: Leaderboard
+Scope: Game System
+Level: Game Developer
+Goal in context: Scores of all the players who have played the game
+Actors: 
+Primary: Game Developer , Database - All the games high scores are stored in this database.
+Secondary: Player - The score of the current player is stored in the leaderboard.
+Basic Flow: 
+1. Scores of different games are stored and retrieved from the database.
+2. Players can view who is the best player in this game.
+
+UC 6: Exit Game
+Scope: Game System
+Level: Player (User)
+Goal in context: Exiting the game
+Actors: 
+Primary: Player - Exits the game whenever needed by him
+Secondary: Game Developer , Database 
+Basic Flow: 
+1. Player exits the game after it ends.
+2. Players can also leave the game midway.
+
